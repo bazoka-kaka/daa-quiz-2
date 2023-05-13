@@ -11,9 +11,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
 
 // routes
-app.get("^/$|index(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
+app.use("/", require(path.join(__dirname, "routes", "root.js")));
+app.use("/submit", require(path.join(__dirname, "routes", "submit.js")));
 
 app.all("*", (req, res) => {
   res.status(404);
