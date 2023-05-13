@@ -1,0 +1,66 @@
+[
+  {
+    "city": "Surabaya",
+    "distance": {
+      "Madiun": 10,
+      "Kediri": 9,
+      "Pasuruan": 6
+    }
+  },
+  {
+    "city": "Madiun",
+    "distance": {
+      "Surabaya": 10,
+      "Kediri": 7
+    }
+  },
+  {
+    "city": "Kediri",
+    "distance": {
+      "Surabaya": 9,
+      "Madiun": 7,
+      "Batu": 5,
+      "Blitar": 4
+    }
+  },
+  {
+    "city": "Blitar",
+    "distance": {
+      "Kediri": 4,
+      "Batu": 5
+    }
+  },
+  {
+    "city": "Malang",
+    "distance": {
+      "Batu": 3,
+      "Pasuruan": 4,
+      "Probolinggo": 6
+    }
+  },
+  {
+    "city": "Batu",
+    "distance": {
+      "Kediri": 5,
+      "Blitar": 5,
+      "Malang": 3,
+      "Pasuruan": 4
+    }
+  },
+  {
+    "city": "Pasuruan",
+    "distance": {
+      "Surabaya": 6,
+      "Batu": 4,
+      "Malang": 4,
+      "Probolinggo": 4
+    }
+  },
+  {
+    "city": "Probolinggo",
+    "distance": {
+      "Malang": 6,
+      "Pasuruan": 4
+    }
+  }
+]
