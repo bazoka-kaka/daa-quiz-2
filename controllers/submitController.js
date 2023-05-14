@@ -9,6 +9,10 @@ const handleSubmit = (req, res) => {
     return res
       .status(400)
       .json({ message: "Location source and destination must be specified!" });
+  else if (location_from === location_destination)
+    return res
+      .status(400)
+      .json({ message: "Location source and destination must be different!" });
   const routesResult = getShortestPath(location_from, location_destination);
   // swap for image
   if (cities.indexOf(location_from) > cities.indexOf(location_destination)) {
