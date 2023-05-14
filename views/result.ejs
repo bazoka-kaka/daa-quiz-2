@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <title>Dijkstra | Home</title>
+  </head>
+  <body>
+    <h1>Shortest Path Between <%= from %> and <%= destination %></h1>
+    <img src="/map_1.png" alt="East Java" />
+    <p><%= routesResult.join(" → ") %></p>
+    <a href="/" class="btn" style="text-decoration: none">Home</a>
+    <footer>&copy; Yehezkiel Wiradhika 2023</footer>
+  </body>
+</html>
