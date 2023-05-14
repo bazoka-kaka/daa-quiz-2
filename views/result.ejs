@@ -10,7 +10,7 @@
   </head>
   <body>
     <h1>Shortest Path Between <%= from %> and <%= destination %></h1>
-    <img src="/map_1.png" alt="East Java" />
+    <img src="/maps/<%= from %>_<%= destination %>.png" alt="East Java" />
     <p><%= routesResult.join(" → ") %></p>
     <a href="/" class="btn" style="text-decoration: none">Home</a>
     <footer>&copy; Yehezkiel Wiradhika 2023</footer>
