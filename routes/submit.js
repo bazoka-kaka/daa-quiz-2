@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
+const submitController = require("../controllers/submitController");
 
-router.post("/", (req, res) => {
-  res.json(req.body);
-});
+router.post("/", submitController.handleSubmit);
 
 module.exports = router;
