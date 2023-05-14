@@ -23,7 +23,7 @@ Yehezkiel Wiradhika
 
 <strong>Implementation</strong>
 <br>
-Here we are implementing Kruskal algorithm to find the shortest route from one city to another in east java based on user's input in the form of web application
+Here we are implementing Dijkstra algorithm to find the shortest route from one city to another in east java based on user's input in the form of web application
 
 <strong>Specification</strong>
 
@@ -31,7 +31,7 @@ Here we are implementing Kruskal algorithm to find the shortest route from one c
 <tbody>
 <tr>
 <th>Algorithm</th>
-<td>Kruskal</td>
+<td>Dijkstra</td>
 </tr>
 <tr>
 <th>Language</th>

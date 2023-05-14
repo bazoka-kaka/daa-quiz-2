@@ -12,7 +12,7 @@
     "url": "git+https://github.com/bazoka-kaka/daa-quiz-2.git"
   },
   "keywords": [
-    "kruskal",
+    "dijkstra",
     "shortest",
     "path",
     "expressjs",
